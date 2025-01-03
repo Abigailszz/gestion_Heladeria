@@ -1,0 +1,28 @@
+^C:\USERS\54936\GESTION_PRODUCTOS\BUILD\WINDOWS\X64\CMAKEFILES\D59E47C77E890719F5AFC3405DF77B43\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\54936\gestion_productos FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\54936\gestion_productos\windows\flutter\ephemeral PROJECT_DIR=C:\Users\54936\gestion_productos FLUTTER_TARGET=C:\Users\54936\gestion_productos\bin/gestion_productos.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\54936\gestion_productos\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\54936\GESTION_PRODUCTOS\BUILD\WINDOWS\X64\CMAKEFILES\1D284BA6AC92228BDCFE4C668C84EFD3\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\54936\GESTION_PRODUCTOS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/54936/gestion_productos/windows -BC:/Users/54936/gestion_productos/build/windows/x64 --check-stamp-file C:/Users/54936/gestion_productos/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

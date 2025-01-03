@@ -11,47 +11,44 @@ class _ProductoFormState extends State<ProductoForm> {
   final TextEditingController _nombreController = TextEditingController();
   final TextEditingController _cantidadController = TextEditingController();
   final TextEditingController _cantidadMinimaController = TextEditingController();
+  final TextEditingController _descripcionController = TextEditingController();
   DateTime? _fechaVencimiento;
 
   void _submitForm() async {
-  if (_formKey.currentState!.validate() && _fechaVencimiento != null) {
-    // Instanciar el servicio
-    final productoService = ProductoService();
+    if (_formKey.currentState!.validate() && _fechaVencimiento != null) {
+      final productoService = ProductoService();
 
-    try {
-      // Llamar al método para agregar el producto
-      await productoService.agregarProducto(
-        _nombreController.text,
-        int.parse(_cantidadController.text),
-        _fechaVencimiento!,
-        int.parse(_cantidadMinimaController.text),
-      );
+      try {
+        await productoService.agregarProducto(
+          _nombreController.text,
+          int.parse(_cantidadController.text),
+          _fechaVencimiento!,
+          int.parse(_cantidadMinimaController.text),
+          _descripcionController.text.isNotEmpty ? _descripcionController.text : null,
+        );
 
-      // Mostrar un mensaje de éxito
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Producto agregado exitosamente')),
+        );
+
+        _nombreController.clear();
+        _cantidadController.clear();
+        _cantidadMinimaController.clear();
+        _descripcionController.clear();
+        setState(() {
+          _fechaVencimiento = null;
+        });
+      } catch (e) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Error al agregar el producto: $e')),
+        );
+      }
+    } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Producto agregado exitosamente')),
-      );
-
-      // Limpiar los campos
-      _nombreController.clear();
-      _cantidadController.clear();
-      _cantidadMinimaController.clear();
-      setState(() {
-        _fechaVencimiento = null;
-      });
-    } catch (e) {
-      // Mostrar un mensaje de error si ocurre un problema
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Error al agregar el producto: $e')),
+        SnackBar(content: Text('Por favor, completa todos los campos correctamente')),
       );
     }
-  } else {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('Por favor, completa todos los campos correctamente')),
-    );
   }
-}
-
 
   @override
   Widget build(BuildContext context) {
@@ -94,6 +91,11 @@ class _ProductoFormState extends State<ProductoForm> {
                   }
                   return null;
                 },
+              ),
+              TextFormField(
+                controller: _descripcionController,
+                decoration: InputDecoration(labelText: 'Descripción (opcional)'),
+                maxLines: 3,
               ),
               SizedBox(height: 16),
               Text(

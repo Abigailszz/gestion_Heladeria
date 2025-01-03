@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Versión de MSBuild 17.9.8+b34f75857 para .NET Framework
-      Compilación iniciada a las 2/1/2025 18:34:22.
+      Compilación iniciada a las 2/1/2025 22:43:29.
       
       Proyecto "C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\3.28.0-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:04.31
+      Tiempo transcurrido 00:00:02.98
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/54936/gestion_productos/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-irent4"
-      binary: "C:/Users/54936/gestion_productos/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-irent4"
+      source: "C:/Users/54936/gestion_productos/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-mqchou"
+      binary: "C:/Users/54936/gestion_productos/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-mqchou"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -82,40 +82,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/54936/gestion_productos/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-irent4'
+        Change Dir: 'C:/Users/54936/gestion_productos/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-mqchou'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_880d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_27ec9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versión de MSBuild 17.9.8+b34f75857 para .NET Framework
-        Compilación iniciada a las 2/1/2025 18:34:29.
+        Compilación iniciada a las 2/1/2025 22:43:33.
         
-        Proyecto "C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-irent4\\cmTC_880d4.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-mqchou\\cmTC_27ec9.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_880d4.dir\\Debug\\".
+          Creando directorio "cmTC_27ec9.dir\\Debug\\".
           La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
-          Creando directorio "C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-irent4\\Debug\\".
-          Creando directorio "cmTC_880d4.dir\\Debug\\cmTC_880d4.tlog\\".
+          Creando directorio "C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-mqchou\\Debug\\".
+          Creando directorio "cmTC_27ec9.dir\\Debug\\cmTC_27ec9.tlog\\".
         InitializeBuildStatus:
-          Se creará "cmTC_880d4.dir\\Debug\\cmTC_880d4.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_880d4.dir\\Debug\\cmTC_880d4.tlog\\unsuccessfulbuild".
+          Se creará "cmTC_27ec9.dir\\Debug\\cmTC_27ec9.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_27ec9.dir\\Debug\\cmTC_27ec9.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_880d4.dir\\Debug\\\\" /Fd"cmTC_880d4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_27ec9.dir\\Debug\\\\" /Fd"cmTC_27ec9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33523 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_880d4.dir\\Debug\\\\" /Fd"cmTC_880d4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_27ec9.dir\\Debug\\\\" /Fd"cmTC_27ec9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-irent4\\Debug\\cmTC_880d4.exe" /INCREMENTAL /ILK:"cmTC_880d4.dir\\Debug\\cmTC_880d4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/54936/gestion_productos/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-irent4/Debug/cmTC_880d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/54936/gestion_productos/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-irent4/Debug/cmTC_880d4.lib" /MACHINE:X64  /machine:x64 cmTC_880d4.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_880d4.vcxproj -> C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-irent4\\Debug\\cmTC_880d4.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-mqchou\\Debug\\cmTC_27ec9.exe" /INCREMENTAL /ILK:"cmTC_27ec9.dir\\Debug\\cmTC_27ec9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/54936/gestion_productos/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-mqchou/Debug/cmTC_27ec9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/54936/gestion_productos/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-mqchou/Debug/cmTC_27ec9.lib" /MACHINE:X64  /machine:x64 cmTC_27ec9.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_27ec9.vcxproj -> C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-mqchou\\Debug\\cmTC_27ec9.exe
         FinalizeBuildStatus:
-          Se eliminará el archivo "cmTC_880d4.dir\\Debug\\cmTC_880d4.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_880d4.dir\\Debug\\cmTC_880d4.tlog\\cmTC_880d4.lastbuildstate".
-        Compilación del proyecto terminada "C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-irent4\\cmTC_880d4.vcxproj" (destinos predeterminados).
+          Se eliminará el archivo "cmTC_27ec9.dir\\Debug\\cmTC_27ec9.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_27ec9.dir\\Debug\\cmTC_27ec9.tlog\\cmTC_27ec9.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\54936\\gestion_productos\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-mqchou\\cmTC_27ec9.vcxproj" (destinos predeterminados).
         
         Compilación correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:01.91
+        Tiempo transcurrido 00:00:01.55
         
       exitCode: 0
 ...
